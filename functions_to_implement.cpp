@@ -42,7 +42,7 @@ std::vector<int> MultiplesFilter(std::vector<int>, int divides_by);
 std::vector<bool> EvenMask(std::vector<int> input){
 	std::vector<bool> boolean = {};
 
-	for (int i = 0; i < input.size(); i++){
+	for (size_t i = 0; i < input.size(); i++){
 		if (input[i] % 2 == 0){
 			// even number
 			boolean[i] = true;
